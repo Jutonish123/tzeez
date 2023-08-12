@@ -1,0 +1,6 @@
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="preserve">
+    <path style="fill: rgb(255, 255, 255);" d="M373.333,384c-5.896,0-10.667-4.771-10.667-10.667v-352h-352C4.771,21.333,0,16.563,0,10.667 S4.771,0,10.667,0h362.667C379.229,0,384,4.771,384,10.667v362.667C384,379.229,379.229,384,373.333,384z" fill="#303C42"></path>
+    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-107.8759" y1="578.7253" x2="-86.4941" y2="568.7548" gradientTransform="matrix(21.3333 0 0 -21.3333 2297.6667 12362.334)">
+    <stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.2"></stop><stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0"></stop>
+    </linearGradient><path style="fill: rgb(194, 163, 137);" d="M373.333,384c-5.896,0-10.667-4.771-10.667-10.667v-352h-352C4.771,21.333,0,16.563,0,10.667 S4.771,0,10.667,0h362.667C379.229,0,384,4.771,384,10.667v362.667C384,379.229,379.229,384,373.333,384z" fill="url(#SVGID_1_)"></path>
+</svg>

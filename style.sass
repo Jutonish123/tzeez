@@ -1,0 +1,255 @@
+.container
+    max-width: 1920px
+    font-family: 'Poppins', sans-serif
+.header
+    padding: 55px 346px 0 346px
+    height: 900px
+    background-image: url(img/block1/Zeezotje.png)
+    background-repeat: no-repeat
+    background-attachment: fixed
+    &-nav
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 154px
+        &__img
+            margin-right: 130px
+        &__link
+            color: #FFF
+            font-size: 16px
+            font-style: normal
+            font-weight: 500
+            text-decoration: none
+            margin-right: 25px
+            &:hover
+                color: #3A4574
+    &-telefon
+        display: flex
+        align-items: center
+        &__number
+            color: #FFF
+            font-size: 16px
+            font-weight: 400
+            text-decoration: none
+            margin-left: 11px
+            &:hover
+                color: #3A4574
+    &-title
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        &__open
+            color: #FFF
+            font-family: Poppins
+            font-size: 24px
+            font-weight: 500
+            grid-column-start: 1
+            grid-column-end: 3
+        &__bad
+            color: #FFF
+            font-family: Poppins
+            font-size: 64px
+            font-weight: 700
+            grid-column-start: 1
+            grid-column-end: 3
+        &__btn
+            padding: 38px 65px 38px 64px
+            background: #3A4574
+            color: #FFF
+            font-family: Poppins
+            font-size: 18px
+            font-weight: 500
+            border: 0
+            margin-top: 40px
+            width: 270px
+            &:hover
+                background: #3A4565
+        &__icon
+            margin-top: 40px
+            display: flex
+            justify-content: end
+            svg
+                margin-right: 25px
+                &:nth-child(4)
+                    margin-right: 0
+.menu
+    margin: 80px 346px 90px 346px
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    &-dishe
+        border-bottom: 1px solid #E7E7E7
+        margin-bottom: 20px
+        padding-bottom: 20px
+        margin-right: 32px
+        &__title
+            color: #000
+            font-family: Poppins
+            font-size: 24px
+            font-weight: 600
+            margin-bottom: 10px
+        &__dishes
+            display: flex
+        &__imgs
+            display: flex
+            align-items: center
+            margin-left: 12px
+            img
+                width: 5px
+                height: 5px
+                margin-right: 12px
+        &__salat
+            color: #000
+            font-family: Poppins
+            font-size: 18px
+            font-weight: 400
+        &__steak
+            color: #000
+            font-family: Poppins
+            font-size: 18px
+            font-weight: 400
+
+.swiper 
+    height: 782px
+    width: 100%
+    background: #3A4574
+.swiper-slide 
+    padding: 219px 530px 220px 530px
+    text-align: center
+    font-size: 18px
+    background: #3A4574
+    display: flex
+    justify-content: center
+    align-items: center
+.swiper-slide img
+    margin: 0 auto
+    display: block
+    object-fit: cover
+.swiper-slide h1
+    color: #D3B47F
+    text-align: center
+    font-family: Poppins
+    font-size: 36px
+    font-weight: 600
+    margin-bottom: 20px
+    margin-top: 34px
+.swiper-slide h2
+    color: #D3B47F
+    text-align: center
+    font-family: Poppins
+    font-size: 24px
+    font-weight: 600
+    margin-top: 40px
+.swiper-slide p
+    color: #FFF
+    text-align: center
+    font-family: Poppins
+    font-size: 16px
+    font-weight: 400
+    line-height: 40px
+.swiper-button-next
+    margin-right: 375px
+    transform: rotate(45deg)
+.swiper-button-prev
+    margin-left: 375px
+    transform: rotate(-135deg)
+
+
+
+.popup__bg 
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100vh
+    background: rgba(0,0,0,0.5)
+    opacity: 0 
+    pointer-events: none 
+    transition: 0.5s all
+
+.popup__bg.active
+    opacity: 1
+    pointer-events: all
+    transition: 0.5s all
+
+.popup 
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%) scale(0)
+    background: #fff
+    width: 400px
+    padding: 25px
+    transition: 0.5s all
+    img
+        width: 20px
+        height: 20px
+
+.popup.active
+    transform: translate(-50%, -50%) scale(1) 
+    transition: 0.5s all
+
+.close-popup 
+    position: absolute
+    top: 10px
+    right: 10px
+    cursor: pointer
+
+.popup label 
+    width: 100%
+    margin-bottom: 25px
+    display: flex
+    flex-direction: column-reverse
+
+.popup .label__text
+    font-size: 14px
+    text-transform: uppercase
+    font-weight: 500
+    color: #cfd0d3
+    margin-bottom: 5px
+
+.popup input 
+    height: 45px
+    font-size: 18px
+    border: none
+    outline: none
+    border-bottom: 1px solid #cfd0d3
+
+.popup input:focus 
+    border-bottom: 1px solid #2982ff
+
+.popup input:focus + .label__text 
+    color: #2982ff
+
+.popup textarea 
+    resize: none
+    width: 100%
+    height: 150px
+    border: none
+    outline: none
+    border-bottom: 1px solid #cfd0d3
+    font-size: 18px
+    padding-top: 5px
+
+.popup textarea:focus 
+    border-bottom: 1px solid #2982ff
+
+.popup textarea:focus + .label__text 
+    color: #2982ff
+
+.popup button 
+    width: 100%
+    height: 45px
+    display: flex
+    align-items: center
+    justify-content: center
+    color: #fff
+    font-size: 18px
+    border: 2px solid #2982ff
+    background: #2982ff
+    cursor: pointer
+    text-transform: uppercase
+    transition: 0.5s all
+
+.popup button:hover 
+    background: #fff
+    color:#2982ff
+    transition: 0.5s all
